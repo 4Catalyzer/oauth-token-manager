@@ -6,8 +6,8 @@ import requests
 class OAuthTokenManager(object):
     def __init__(
         self,
-        *,
         url,
+        *,
         renew_pad_secs=60,
         **parameters
     ):
