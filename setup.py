@@ -43,6 +43,7 @@ setup(
     ),
     keywords='oauth token',
     py_modules=('oauth_token_manager',),
+    python_requires='>=3',
     install_requires=('requests',),
     cmdclass={
         'clean': system('rm -rf build dist *.egg-info'),

@@ -2,15 +2,19 @@ sudo: false
 
 language: python
 python:
-  - 3.5
+  - "3.5"
+  - "3.6"
 
 cache: pip
 
 install:
-  - pip install .
-  - pip install flake8 flake8-config-4catalyzer
+  - pip install -U codecov tox
 
-script: flake8 .
+script:
+  - python setup.py test
+
+after_success:
+  - codecov
 
 branches:
   only:
