@@ -51,5 +51,6 @@ setup(
         'pandoc': system('pandoc README.md -o README.rst'),
         'publish': system('twine upload dist/*'),
         'release': system('python setup.py clean package publish'),
+        'test': system('tox'),
     },
 )
