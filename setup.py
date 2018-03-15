@@ -25,7 +25,7 @@ def system(command):
 
 setup(
     name="oauth-token-manager",
-    version='0.1.0',
+    version='0.1.1',
     description="OAuth 2.0 token manager",
     url='https://github.com/4Catalyzer/oauth-token-manager',
     author="Jimmy Jia",
