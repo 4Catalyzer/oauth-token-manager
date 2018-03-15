@@ -1,0 +1,4 @@
+[flake8]
+ignore = C816
+import-order-style = google
+application-import-names = oauth_token_manager
