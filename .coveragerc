@@ -1,5 +1,6 @@
 [run]
-source = oauth_token_manager
+branch = true
+include = oauth_token_manager
 
 [report]
 exclude_lines =
