@@ -1,6 +1,6 @@
 [run]
 branch = true
-include = oauth_token_manager
+include = oauth_token_manager.py
 
 [report]
 exclude_lines =
